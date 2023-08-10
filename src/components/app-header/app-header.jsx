@@ -11,11 +11,11 @@ const AppHeader = () => {
             <div className={stylesHeader.wrapper}>
                 <nav className={stylesHeader.nav}>
                     <ul>
-                        <li className="header__link">
+                        <li className="header__link text_type_main-default">
                             <BurgerIcon type="primary" />
                             Конструктор
                         </li>
-                        <li className="header__link">
+                        <li className="header__link text_type_main-default">
                             <ListIcon type="primary" />
                             Лента заказов
                         </li>
@@ -23,7 +23,7 @@ const AppHeader = () => {
                 </nav>
                 <div className={stylesHeader.header__item}><Logo /></div>
                 <div className={stylesHeader.header__item}>
-                    <a href="" className="header__link">
+                    <a href="" className="header__link text_type_main-default">
                         <ProfileIcon type="primary" />
                         Личный кабинет
                     </a>
